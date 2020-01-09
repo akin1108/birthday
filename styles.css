@@ -1,0 +1,150 @@
+
+#heading {
+  background-image: url("red-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#hello {
+  margin: 0 auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #fbfae1;
+  font-size: 4.5rem;
+  text-align: center;
+}
+
+#initial {
+  color: #fbfae1;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+#bday {
+  margin: 20px auto 10px auto;
+  font-family: 'Kaushan Script', cursive;
+  color: #fbfae1;
+  font-size: 5rem;
+  text-align: center;
+  animation-name: colorchange;
+    animation-duration: 5s ;
+    animation-iteration-count:infinite ;
+}
+@keyframes colorchange {
+    0% {color: #f1f864; }
+    10% {color: #04dead; }
+    20% {color: #ede59a; }
+    30% {color: #1fffff; }
+    40% {color: #b8ffd0; }
+    50% {color: #51eaea; }
+    60% {color: #7cbd1e; }
+    70% {color: #ffc0d0; }
+}
+.bday_cake{
+  height: 15%;
+  width: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pic {
+  height: 10%;
+  width: 10%;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#features {
+  padding: 5% 5%;
+  background-image: url("flower.jpg");
+  background-color: #fff195;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.row {
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.icon {
+  color: #f12b6b;
+  margin-top: 1rem;
+}
+
+.icon:hover {
+  color: #952e4b;
+}
+
+#testimonials{
+  background-image: url("bdaybackground.jpg");
+  background-color: rgb(241, 43, 107);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 10px;
+}
+
+.carousel-inner{
+  text-align: center;
+  padding: 4%;
+
+}
+
+.testimonial-text {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-family: 'Bad Script', cursive;
+  color: #fbfae1;
+}
+
+.testimonial-image {
+  height: 10%;
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.name{
+  font-size: 1.5rem;
+  color: #b8ffd0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#end{
+  background-image: url("flower.jpg");
+  background-position:bottom;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+#ending{
+  padding: 4%;
+  font-family: 'Sacramento', cursive;
+  color: #952e4b;
+  font-size: 4.7rem;
+  text-align: center;
+  animation-name: colorchanges;
+    animation-duration: 3s ;
+    animation-iteration-count:infinite ;
+}
+
+@keyframes colorchanges {
+    0% {color: #ff0000; }
+    10% {color: #a72693; }
+    20% {color: #241663; }
+    30% {color: #1fffff; }
+    40% {color: #00818a; }
+    50% {color: #ea0599; }
+    60% {color: #018383; }
+    70% {color: #32ff6a; }
+    80% {color: #393e46; }
+    90% {color: #5d13e7; }
+}
